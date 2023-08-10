@@ -142,7 +142,7 @@ const Footer = () => {
               className="px-2 py-1 bg-gray-800 text-white rounded"
             />
             <p className="text-sm">
-              By clicking on the 'Subscribe' button you consent to receive periodic communications from Cropin.
+              By clicking on the &apos;Subscribe&apos; button you consent to receive periodic communications from Cropin.
             </p>
             <button className="bg-green-500 hover:bg-white text-white hover:text-green-500 px-4 py-2 rounded transition-all duration-300 ease-in-out">
               Subscribe to Newsletter
