@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image';
 const Footer = () => {
     return (
       <footer className="bg-blue-900 px-4 py-8 text-white">
         <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-8">
           <div className="mb-4 md:mb-0">
-            <img
+            <Image width={2560} height={1056}
               src="https://www.cropin.com/hs-fs/hubfs/cropin_2021/cropin-logo.png?width=200&height=85&name=cropin-logo.png"
               alt="Cropin Logo"
               className="w-auto h-auto"

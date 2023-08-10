@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 const Cloud = () => {
     return (
       <div className="px-4 py-8 bg-gray-700 text-center">
@@ -28,8 +28,8 @@ const Cloud = () => {
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img
-                src="https://www.cropin.com/hs-fs/hubfs/cropin_2022/home/Isometric-image.png?width=634&height=952&name=Isometric-image.png"
+              <Image width={2560} height={1056}
+                src="https://www.cropin.com/hs-fs/hubfs/cropin_2022/home/Isometric-image.png"
                 alt="Cropin Cloud Image"
                 className="max-h-[400px] w-auto"
               />

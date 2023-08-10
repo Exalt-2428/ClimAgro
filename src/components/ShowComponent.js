@@ -1,10 +1,11 @@
 import React from 'react'
 import { useState } from "react";
+import Image from 'next/image';
 
 const images = [
-    "https://www.cropin.com/hs-fs/hubfs/cropin_2022/home/cropin-cloud-website-banner.jpg?width=2560&height=1056&name=cropin-cloud-website-banner.jpg",
-    "https://www.cropin.com/hs-fs/hubfs/Version%201.png?width=2560&height=1056&name=Version%201.png",
-    "https://www.cropin.com/hs-fs/hubfs/Homepage%20banner%20-%20Ag-celerate%20(1280%20%C3%97%20528%20px)%20Updated.png?width=2560&height=1056&name=Homepage%20banner%20-%20Ag-celerate%20(1280%20%C3%97%20528%20px)%20Updated.png",
+    "https://www.cropin.com/hs-fs/hubfs/cropin_2022/home/cropin-cloud-website-banner.jpg",
+    "https://www.cropin.com/hs-fs/hubfs/Version%201.png",
+    "https://www.cropin.com/hs-fs/hubfs/Homepage%20banner%20-%20Ag-celerate%20(1280%20%C3%97%20528%20px)%20Updated.png",
   ];
   
   const ShowComponent = () => {
@@ -17,7 +18,7 @@ const images = [
     return (
       <div className="flex flex-col items-center">
         <div className="relative w-full">
-          <img
+          <Image priority="true" width={2560} height={1056}
             src={images[currentIndex]}
             alt={`Image ${currentIndex + 1}`}
             className="w-full h-auto"

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Pixel = () => {
     return (
@@ -13,34 +14,34 @@ const Pixel = () => {
           </p>
           <div className="flex justify-center space-x-4 text-red-500">
             <div className="flex-1 bg-white p-4 rounded shadow text-center">
-              <img
+              <Image width={2560} height={1056}
                 src="https://www.cropin.com/hubfs/cropin_2021/home/artificial-intelligence.svg"
                 alt="AI Icon"
-                className="mx-auto mb-6"
+                className="h-20 mx-auto mb-6"
               />
               <p>Location and crop agnostic AI models</p>
             </div>
             <div className="flex-1 bg-white p-4 rounded shadow text-center">
-              <img
+              <Image width={2560} height={1056}
                 src="https://www.cropin.com/hubfs/cropin_2021/home/artificial-intelligence.svg"
                 alt="AI Icon"
-                className="mx-auto mb-6"
+                className="h-20 mx-auto mb-6"
               />
               <p>Location and crop agnostic AI models</p>
             </div>
             <div className="flex-1 bg-white p-4 rounded shadow text-center">
-              <img
+              <Image width={2560} height={1056}
                 src="https://www.cropin.com/hubfs/cropin_2021/home/artificial-intelligence.svg"
                 alt="AI Icon"
-                className="mx-auto mb-6"
+                className="h-20 mx-auto mb-6"
               />
               <p>Location and crop agnostic AI models</p>
             </div>
             <div className="flex-1 bg-white p-4 rounded shadow text-center">
-              <img
+              <Image width={2560} height={1056}
                 src="https://www.cropin.com/hubfs/cropin_2021/home/artificial-intelligence.svg"
                 alt="AI Icon"
-                className="mx-auto mb-6"
+                className="h-20 mx-auto mb-6"
               />
               <p>Location and crop agnostic AI models</p>
             </div>

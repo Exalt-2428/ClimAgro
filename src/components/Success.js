@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Success = () => {
     return (
@@ -16,8 +17,8 @@ const Success = () => {
               className="block w-full h-0 pb-[56.25%] bg-gray-300 rounded"
             >
               {/* Insert video thumbnail image here */}
-              <img
-                src="VIDEO_THUMBNAIL_URL"
+              <Image width={2560} height={1056}
+                src="/VIDEO_THUMBNAIL_URL"
                 alt="Video Thumbnail"
                 className="absolute inset-0 w-full h-full object-cover rounded"
               />

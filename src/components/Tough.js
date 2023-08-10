@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 const Tough = () => {
     return (
       <div className="px-4 py-8 bg-gray-700 text-center">
@@ -16,7 +16,7 @@ const Tough = () => {
               <div key={index} className="p-2 rounded shadow text-center">
                 {index === 0 && (
                   <div className="flex flex-col items-center">
-                    <img
+                    <Image width={2560} height={1056}
                       src="https://www.cropin.com/hubfs/cropin_2021/RootTrace/use/farming-companies.svg"
                       alt="Grow"
                       className=""
@@ -29,7 +29,7 @@ const Tough = () => {
                 )}
                 {index === 1 && (
                   <div className="flex flex-col items-center">
-                    <img
+                    <Image width={2560} height={1056}
                       src="https://www.cropin.com/hubfs/cropin_2021/icons/seeds.svg"
                       alt="Grow"
                       className=""
@@ -44,7 +44,7 @@ const Tough = () => {
             ))}
           </div>
           <div className="md:w-1/2 mb-4">
-            <img
+            <Image width={2560} height={1056}
               src="https://www.cropin.com/hubfs/cropin_2022/home/hero-slider/Impacting.png"
               alt="Impact Image"
               className="w-full h-auto"
@@ -55,7 +55,7 @@ const Tough = () => {
               <div key={index} className="text-red-500 p-2 rounded shadow">
                 {index === 0 && (
                   <div className="flex flex-col items-center">
-                    <img
+                    <Image width={2560} height={1056}
                       src="https://www.cropin.com/hubfs/cropin_2022/cloud-launch/icons/Cropin-grow.svg"
                       alt="Grow"
                       className="mt-4 h-12"
@@ -77,7 +77,7 @@ const Tough = () => {
   
                 {index === 1 && (
                   <div className="flex flex-col items-center">
-                    <img
+                    <Image width={2560} height={1056}
                       src="https://www.cropin.com/hubfs/cropin_2022/cloud-launch/icons/connect.svg"
                       alt="Connect"
                       className="mt-4 h-12"
@@ -102,7 +102,7 @@ const Tough = () => {
                 )}
                 {index === 2 && (
                   <div className="flex flex-col items-center">
-                    <img
+                    <Image width={2560} height={1056}
                       src="https://www.cropin.com/hubfs/cropin_2022/cloud-launch/icons/Trace.svg"
                       alt="Trace"
                       className="mt-4 h-12"

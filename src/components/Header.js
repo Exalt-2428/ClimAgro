@@ -1,12 +1,13 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Header = () => {
     return (
       <header className="bg-gray-800 py-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <a href="/" className="flex items-center">
-            <img
-              src="https://www.cropin.com/hs-fs/hubfs/cropin_2021/cropin-logo.png?width=400&height=170&name=cropin-logo.png"
+            <Image width={400} height={170}
+              src="https://www.cropin.com/hs-fs/hubfs/cropin_2021/cropin-logo.png"
               alt="Cropin Logo"
               className="h-12 w-auto"
             />
